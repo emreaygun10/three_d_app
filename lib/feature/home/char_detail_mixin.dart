@@ -32,23 +32,23 @@ mixin CharDetailMixin on State<CharDetailView> {
   void turnRight() {
     {
       controller.cameraOrbit(-90, 75, 70);
-      controller.cameraTarget(-1, 1, 0);
+      controller.cameraTarget(0, 1, 0);
     }
   }
 
   void center() {
     controller.cameraOrbit(0, 75, 70);
-    controller.cameraTarget(0, 0.87, 0);
+    controller.cameraTarget(0, 1, 0);
   }
 
   void turnLeft() {
     controller.cameraOrbit(90, 75, 70);
-    controller.cameraTarget(1, 1, 0);
+    controller.cameraTarget(0, 1, 0);
   }
 
   void changeCameraControl() {
-    cameraControls = !cameraControls;
-    controller.cameraControls = cameraControls;
+    // cameraControls = !cameraControls;
+    // controller.cameraControls = cameraControls;
   }
 
   Future<void> getAnimations() async {

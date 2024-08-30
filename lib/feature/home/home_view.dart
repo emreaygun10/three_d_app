@@ -10,7 +10,7 @@ final class HomeView extends StatefulWidget {
   State<HomeView> createState() => _HomeViewState();
 }
 
-class _HomeViewState extends State<HomeView>{
+class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,8 +23,12 @@ class _HomeViewState extends State<HomeView>{
             margin: const EdgeInsets.all(8),
             child: SizedBox(
               child: ListTile(
-                onTap: () => Navigator.push(context,
-      MaterialPageRoute(builder: (context) =>const CharDetailView())),
+                onTap: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => CharDetailView(
+                              charInfo: Character.values[value],
+                            ))),
                 title: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [

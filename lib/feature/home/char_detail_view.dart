@@ -6,7 +6,8 @@ import 'package:three_d_app/utils/widgets/custom_dropdown_form_field.dart';
 import 'package:three_d_app/utils/widgets/custom_floating_action_button.dart';
 
 class CharDetailView extends StatefulWidget {
-  const CharDetailView({super.key});
+  final Character charInfo;
+  const CharDetailView({super.key, required this.charInfo});
 
   @override
   State<CharDetailView> createState() => _CharDetailViewState();
@@ -52,7 +53,7 @@ class _CharDetailViewState extends State<CharDetailView> with CharDetailMixin {
             Flexible(
               flex: 9,
               child: AnimationObject(
-                src: Character.boony.path,
+                src: widget.charInfo.path,
                 animationName: '',
                 autoPlay: autoPlay,
                 controller: controller,

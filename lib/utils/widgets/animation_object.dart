@@ -22,10 +22,11 @@ class AnimationObject extends StatelessWidget {
       controller: controller,
       ar: false,
       autoPlay: autoPlay,
+      autoRotate: false,
       autoRotateDelay: 0,
       animationName: animationName,
-      cameraTarget: CameraTarget(0, 1, 1),
-      cameraOrbit: CameraOrbit(0, 90, 0),
+      cameraTarget: CameraTarget(0, 1, 0),
+      cameraOrbit: CameraOrbit(0, 75, 70),
       loading: Loading.eager,
     );
   }
