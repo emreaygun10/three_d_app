@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:three_d_app/feature/home/char_detail_mixin.dart';
-import 'package:three_d_app/utils/enums/chararter.dart';
+import 'package:three_d_app/utils/enums/character.dart';
 import 'package:three_d_app/utils/widgets/animation_object.dart';
 import 'package:three_d_app/utils/widgets/custom_dropdown_form_field.dart';
 import 'package:three_d_app/utils/widgets/custom_floating_action_button.dart';

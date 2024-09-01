@@ -1,8 +1,8 @@
 import 'package:three_d_app/utils/const/utils.dart';
 
 enum Character{
-  freedy('${Utils.basePath}fnaf_sb_glamrock_bonnie.glb', 'FREEDY',),
-  boony('${Utils.basePath}fnaf_sb_glamrock_freddy.glb', 'BOONNY',);
+  bonnie('${Utils.basePath}fnaf_sb_glamrock_bonnie.glb', 'BONNIE',),
+  freddy('${Utils.basePath}fnaf_sb_glamrock_freddy.glb', 'FREDDY',);
   
 
   final String path;

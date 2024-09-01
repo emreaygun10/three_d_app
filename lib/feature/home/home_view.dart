@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:three_d_app/feature/home/char_detail_view.dart';
-import 'package:three_d_app/utils/enums/chararter.dart';
+import 'package:three_d_app/utils/enums/character.dart';
 
 @immutable
 final class HomeView extends StatefulWidget {
