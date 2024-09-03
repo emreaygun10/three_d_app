@@ -2,7 +2,8 @@
 
 This is an entry-level application created using the o3d package in Flutter. The o3d package facilitates 3D graphics and object manipulation, allowing developers to integrate three-dimensional elements seamlessly into their Flutter applications. In this example, the app demonstrates basic usage of the package to render and interact with 3D objects, providing a foundational understanding of how to incorporate 3D features within a Flutter environment.
 
-![Simulator Screenshot - iPhone 15 Pro Max - 2024-09-01 at 13 42 47](https://github.com/user-attachments/assets/91308fde-c20e-43c9-b780-c73023d85ef7)
+
+![Uploading Simulator Screenshot - iPhone 15 Pro Max - 2024-09-01 at 13.42.47.png…]()
 
 
 ##For detailed explanations and further insights, please refer to the provided Medium link.
